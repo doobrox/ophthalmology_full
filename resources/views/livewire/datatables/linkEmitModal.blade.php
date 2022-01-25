@@ -1,0 +1,1 @@
+<span onclick="Livewire.emit('openModal', '{{ $whatModal }}', {{ isset($paramsModal) ? json_encode(["paramsModal" => $paramsModal]) : '' }})" class="border-2 border-transparent hover:border-blue-500 hover:bg-blue-100 hover:shadow-lg text-blue-600 rounded-lg px-3 py-1">{{ $slot }}</span>
